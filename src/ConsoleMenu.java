@@ -150,11 +150,6 @@ public class ConsoleMenu {
                     currentStartIndex++;
                     hourCounter = 1;
                 }
-                else if (hourCounter > 4) {
-                    currentTotalPrice -= elpriser[currentStartIndex];
-                    currentStartIndex++;
-                    hourCounter--;
-                }
             }
 
             // Beräkna genomsnittspriset för de bästa 4 timmarna
